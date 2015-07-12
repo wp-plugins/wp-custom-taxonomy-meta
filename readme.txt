@@ -14,7 +14,8 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=amu02.af
 Plugin to add custom meta fields within built in and custom taxonomies. Simply add the desired fields by going through WP-admin -> Settings ->Taxonomy Meta .
 
 == Screenshots ==
-1.Settings page where you can add the custom fields
+
+1. Settings page where you can add the custom fields
 2. Example of the custom fields under the general category fields
 
 
@@ -35,18 +36,18 @@ the top-level folder. Don't just upload all the php files and put them in `/wp-c
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Go to your WP-admin ->Settings menu a new "Taxonomy Meta" page is created.
 4. go to your WP-admin ->Settings ->Taxonomy Meta  displayed in the category modification form with the meta you configured.
-5. you can use the folowing functions into your templates to retrieve all meta:
-<?php
+5. you can use the following functions into your templates to retrieve all meta:
+
 if (function_exists('get_all_wp_terms_meta'))
 {
     $metaList = get_all_wp_terms_meta($category_id);
 }
-?>
-6. you can use the folowing functions into your templates to retrieve 1 meta:
-<?php
+
+6. you can use the following functions into your templates to retrieve 1 meta:
+
 if (function_exists('wp_get_terms_meta'))
 {
     $metaValue = wp_get_terms_meta($category_id, $meta_key);
 }
-?>
+
 
