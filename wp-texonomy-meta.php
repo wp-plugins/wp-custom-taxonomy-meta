@@ -28,7 +28,7 @@ if (!defined('DIRECTORY_SEPARATOR')) {
     }
 }
 
-$pluginPath = ABSPATH.PLUGINDIR.DIRECTORY_SEPARATOR."custom-taxonomy-term-fields";
+$pluginPath = ABSPATH.PLUGINDIR.DIRECTORY_SEPARATOR."wp-custom-taxonomy-meta";
 define('WPTM_PATH', $pluginPath);
 $filePath = $pluginPath.DIRECTORY_SEPARATOR.basename(__FILE__);
 $asolutePath = dirname(__FILE__).DIRECTORY_SEPARATOR;
@@ -214,7 +214,7 @@ function wpaft_admin_enqueue_scripts() {
         wp_enqueue_script('thickbox');
         wp_enqueue_script('media-upload');
         wp_enqueue_script('quicktags');
-        wp_enqueue_script('wp-texonomy-meta-scripts','/wp-content/plugins/custom-taxonomy-term-fields/includes/wp-texonomy-meta-scripts.js');
+        wp_enqueue_script('wp-texonomy-meta-scripts','/wp-content/plugins/wp-custom-taxonomy-meta/includes/wp-texonomy-meta-scripts.js');
         
     }
     
