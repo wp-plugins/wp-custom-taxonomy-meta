@@ -1,5 +1,5 @@
 === WP Custom taxonomy meta ===
-Tags:  meta, custom field, taxonomy, taxonomy meta, term meta,category meta, custom fields
+Tags:  meta, custom field, taxonomy, taxonomy meta, term meta,category meta, custom fields ,taxonomy image, taxonomy description, taxonomy short description,category image, category description, category short description,category images
 Contributors: amu02aftab
 Author: amu02aftab
 Tested up to: 4.2.2
@@ -11,7 +11,12 @@ Stable tag: 1.0
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=amu02.aftab@gmail.com&item_name=Donation+WP+Custom+texonomy+meta
 
 == Description ==
-Plugin to add custom meta fields within built in and custom taxonomies. Simply add the desired fields by going through WP-admin -> Settings ->Taxonomy Meta .
+Plugin to add custom meta fields within built in and custom taxonomies. Simply add the desired fields by going through WP-admin -> Settings ->Taxonomy Meta . 
+Using this plugin, you can add following fields with category/taxonomy.
+1.Taxonomy image field
+2.Taxonomy text field
+3.Taxonomy textarea field
+4.Taxonomy checkbox field
 
 == Screenshots ==
 
