@@ -14,11 +14,13 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=amu02.af
 Plugin to add custom meta fields within built in and custom taxonomies. Simply add the desired fields by going through WP-admin -> Settings ->Taxonomy Meta . 
 
 = Features =
-Using this plugin, you can add following fields with category/taxonomy.
-1.Taxonomy image field
-2.Taxonomy text field
-3.Taxonomy textarea field
-4.Taxonomy checkbox field
+1.Using this plugin, you can add following fields with category/taxonomy.
+a.Taxonomy image field
+b.Taxonomy text field
+c.Taxonomy textarea field
+d.Taxonomy checkbox field
+2.Very simple in use
+3.Can be customized easily.
 
 == Screenshots ==
 
