@@ -15,13 +15,10 @@ Plugin to add custom meta fields within built in and custom taxonomies. Simply a
 
 <strong>you can add following fields with category/taxonomy</strong>
 
-* Shortcode System.
 * Image.
 * Input Text.
 * Textarea.
 * Checkbox.
-* You can use it in posts or pages.
-
 
 = Features =
 * Very simple in use
