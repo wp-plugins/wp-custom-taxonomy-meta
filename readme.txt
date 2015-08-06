@@ -1,4 +1,4 @@
-=== WP Custom taxonomy meta ===
+=== Custom taxonomy meta ===
 Tags:  meta, custom field, taxonomy, taxonomy meta, term meta,category meta, custom fields ,taxonomy image, taxonomy description, taxonomy short description,category image, category description, category short description,category images
 Contributors: amu02aftab
 Author: amu02aftab
