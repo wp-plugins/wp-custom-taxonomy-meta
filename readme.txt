@@ -48,11 +48,11 @@ the top-level folder. Don't just upload all the php files and put them in `/wp-c
 3. Go to your WP-admin ->Settings menu a new "Taxonomy Meta" page is created.
 4. Go to your WP-admin ->Settings ->Taxonomy Meta  displayed in the category modification form with the meta you configured.
 5. You can use the below function into your templates to retrieve all meta using 'category id':
-<?php if (function_exists('get_all_wp_terms_meta')){ $metaList = get_all_wp_terms_meta($category_id);} ?>
+'<?php if (function_exists('get_all_wp_terms_meta')){ $metaList = get_all_wp_terms_meta($category_id);} ?>'
 where $category_id is category/term id .
 
 6. you can use the below function into your templates to retrieve any particular meta using 'category id' and 'meta key':
-<?php if (function_exists('wp_get_terms_meta')){ $metaValue = wp_get_terms_meta($category_id, $meta_key); } ?>
+'<?php if (function_exists('wp_get_terms_meta')){ $metaValue = wp_get_terms_meta($category_id, $meta_key); } ?>'
 where $category_id is 'category/term id' and $meta_key is 'meta key'.
 
 
