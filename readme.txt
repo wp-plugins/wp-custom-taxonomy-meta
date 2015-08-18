@@ -66,11 +66,11 @@ where $category_id is category/term id .
 <?php 
 if (function_exists('wp_get_terms_meta'))
 { 
-  $arrayMetaValue = wp_get_terms_meta($category_id, $meta_key); 
+  $MetaValue = wp_get_terms_meta($category_id, $meta_key ,true); 
 } 
 
 //meta value for meta key $meta_key
-echo $metaValue = $arrayMetaValue[0]; 
+echo $metaValue; 
 
 ?>
 `
