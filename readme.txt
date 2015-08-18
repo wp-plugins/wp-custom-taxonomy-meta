@@ -52,18 +52,26 @@ the top-level folder. Don't just upload all the php files and put them in `/wp-c
 <?php 
 if (function_exists('get_all_wp_terms_meta'))
 { 
-   $metaList = get_all_wp_terms_meta($category_id);
+   $arrayMetaList = get_all_wp_terms_meta($category_id);
 } 
+
+// array all meta fields for category/term
+print_r($arrayMetaList); 
 ?>
 `
 where $category_id is category/term id .
 
 6. you can use the below function into your templates to retrieve any particular meta using 'category id' and 'meta key':
 `
-<?php if (function_exists('wp_get_terms_meta'))
+<?php 
+if (function_exists('wp_get_terms_meta'))
 { 
-  $metaValue = wp_get_terms_meta($category_id, $meta_key); 
+  $arrayMetaValue = wp_get_terms_meta($category_id, $meta_key); 
 } 
+
+//meta value for meta key $meta_key
+echo $metaValue = $arrayMetaValue[0]; 
+
 ?>
 `
 where $category_id is 'category/term id' and $meta_key is 'meta key'.
