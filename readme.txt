@@ -2,7 +2,7 @@
 Tags:  meta, custom field, taxonomy, taxonomy meta, term meta,category meta, custom fields ,taxonomy image, taxonomy description, taxonomy short description,category image, category description, category short description,category images
 Contributors: amu02aftab
 Author: amu02aftab
-Tested up to: 4.2.2
+Tested up to: 4.3
 License: GPLv2
 Requires at least: 3.5.0
 Stable tag: 1.0
