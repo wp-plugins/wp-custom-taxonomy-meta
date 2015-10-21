@@ -1,5 +1,5 @@
 === Category and Taxonomy Meta Fields===
-Tags: custom taxonomy field,taxonomy meta,term meta,category meta,taxonomy image, taxonomy description, taxonomy short description,category image, category description, category short description
+Tags: custom taxonomy field, taxonomy meta, term meta, category meta, taxonomy image, taxonomy description, taxonomy short description, category image, category description, category short description
 Contributors: amu02aftab
 Author: amu02aftab
 Tested up to: 4.3
