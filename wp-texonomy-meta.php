@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: WP Custom taxonomy meta.
+ * Plugin Name: Category and Custom Taxonomy Meta.
  * Plugin URI: https://aftabhusain.wordpress.com/
  * Description:  Simply add the desired fields by going through WP-admin -> Settings ->Taxonomy Meta
  * Version: 1.0.0
