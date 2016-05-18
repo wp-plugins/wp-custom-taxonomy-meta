@@ -1,11 +1,11 @@
 === Category and Taxonomy Meta Fields===
 Tags: custom taxonomy field, taxonomy meta, term meta, category meta, taxonomy image, taxonomy description, taxonomy short description, category image, category description, category short description
-Contributors: amu02aftab
+Contributors: amu02aftab developersteve
 Author: amu02aftab
 Tested up to: 4.3
 License: GPLv2
 Requires at least: 3.5.0
-Stable tag: 1.0
+Stable tag: 1.0.1
 
 
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=amu02.aftab@gmail.com&item_name=Donation+Category+and+Meta+Fields
