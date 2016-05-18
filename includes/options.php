@@ -120,7 +120,7 @@ Class wpaft_admin {
             }
             $new_meta_type = $_POST["new_meta_type"];
             $new_meta_taxonomy = $_POST["new_meta_taxonomy"];
-            $configuration[$new_meta_name] = array('type' => $new_meta_type, 'taxonomy' => $new_meta_taxonomy);
+            $configuration[$new_meta_taxonomy.'_'.$new_meta_name] = array('new_meta_name' => $new_meta_name, 'type' => $new_meta_type, 'taxonomy' => $new_meta_taxonomy);
             
             update_option("wpaft_configuration", $configuration);
             
@@ -223,13 +223,14 @@ Class wpaft_admin {
                         $taxonomy = 'category';
                         if(is_array($data)) {
                             $type = $data['type'];
+                            $new_meta_name = $data['new_meta_name'];
                             $taxonomy = $data['taxonomy'];
                         } else {
                             $type = $data;
                         }
                         ?>
                 <tr class="mainrow">        
-                    <td class="titledesc"><?php echo $name;?></td>
+                    <td class="titledesc"><?php echo $new_meta_name;?></td>
                     <td class="forminp">
                         <?php echo $type;?>
                     </td>

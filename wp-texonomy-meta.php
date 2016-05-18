@@ -574,6 +574,7 @@ function wpaft_add_meta_textinput($tag) {
                 if (is_array($inputData)) {
                     
                     $inputType = $inputData['type'];
+                    $new_meta_name = $inputData['new_meta_name'];
                     $inputTaxonomy = $inputData['taxonomy'];
                     
                 } else {
@@ -591,7 +592,7 @@ function wpaft_add_meta_textinput($tag) {
                         
                     	<tr class="form-field">
                     		<th scope="row" valign="top">
-                                <label for="category_nicename"><?php echo $inputName;?></label>
+                                <label for="category_nicename"><?php echo $new_meta_name;?></label>
                             </th>
                     		<td>
                                 <input value="<?php echo $inputValue ?>" type="text" size="40" name="<?php echo 'wpaft_'.$inputName;?>" /><br />
